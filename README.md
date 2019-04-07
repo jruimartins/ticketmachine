@@ -3,7 +3,7 @@ This solution delivers an implementation of the "Station Finder" algorithm for t
 
 To allow for the testing of the algorithm a demo console application is provided. 
 
-## Projects
+### Projects
 
 | Package | Description | .NET Core version|
 |:-------:|:-----------:|:--------------:|
@@ -13,7 +13,7 @@ To allow for the testing of the algorithm a demo console application is provided
 |[TicketMachine.Core.Tests](https://github.com/jruimartins/ticketmachine/tree/master/tests/TicketMachine.Core.Tests)| Unit tests package for TicketMachine.Core | 2.2 |
 |[TicketMachine.Entities.Tests](https://github.com/jruimartins/ticketmachine/tree/master/tests/TicketMachine.Entities.Tests)| Unit tests package for TicketMachine.Entities | 2.2 |
 
-### Build and run the Demo
+#### Build and run the Demo
 As specified above to build and run the Demo, .Net Core 2.2 needs to be installed.
 The solution can be opened, built and ran on Visual Studio 2017 (or later).
 
@@ -24,7 +24,7 @@ Alternatively it can be built from the command line:
 To start the demo, just run :
 `dotnet dist\netcoreapp2.2\TicketMachine.Demo.dll`
 
-### Run Unit Tests
+#### Run Unit Tests
 There are 2 packages with unit tests (using xUnit). 
 They can be run from the command line using the dotnet test and targeting the desired project file.
 
@@ -33,3 +33,5 @@ Example:
 
 Alternatively there's a batch file that runs the tests for both packages:
 `runtests.bat` located on the root of the repo/solution
+
+ 
